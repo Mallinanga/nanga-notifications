@@ -1,0 +1,15 @@
+{
+    "name": "nanga/nanga-notifications",
+    "description": "Send automatic email notifications",
+    "type": "wordpress-plugin",
+    "require": {
+        "sendgrid/sendgrid": "^5.1",
+        "mandrill/mandrill": "^1.0"
+    },
+    "authors": [
+        {
+            "name": "Panos Paganis",
+            "email": "mallinanga@gmail.com"
+        }
+    ]
+}
