@@ -1,16 +1,21 @@
 {
-    "name": "nanga/nanga-notifications",
-    "description": "Send automatic email notifications",
-    "type": "wordpress-plugin",
-    "license": "MIT",
-    "require": {
-        "sendgrid/sendgrid": "^5.1",
-        "mandrill/mandrill": "^1.0"
-    },
-    "authors": [
-        {
-            "name": "Panos Paganis",
-            "email": "mallinanga@gmail.com"
-        }
-    ]
+  "name": "nanga/nanga-notifications",
+  "description": "Send automatic email notifications",
+  "type": "library",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "Nanga\\": "app/"
+    }
+  },
+  "require": {
+    "sendgrid/sendgrid": "^5.1",
+    "monolog/monolog": "^1.22"
+  },
+  "authors": [
+    {
+      "name": "Panos Paganis",
+      "email": "mallinanga@gmail.com"
+    }
+  ]
 }
